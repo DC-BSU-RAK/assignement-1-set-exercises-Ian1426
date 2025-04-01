@@ -1,0 +1,36 @@
+body{
+    margin: 30px;           /* Margin tag is used to centralize the page */
+    font-size: 110%;        /* The body text font size */
+    font-family: 'Times New Roman';
+    background: hsl(184, 72%, 55%); /* Background color for the page */
+}
+h1{
+    color: whitesmoke;                   
+    font-family: 'Garamond', monospace;
+    font-size: 315%;
+    padding: 20px;              /* To make the background larger than the text */
+    background: rgb(160, 203, 238);    
+    text-align: center;         /* To keep the in the center */
+    border: 2px solid;
+    border-radius: 8px;
+}
+p{
+    font-family: 'Georgia';
+    font-size: 24px;
+    text-align: justify;        /* To keep the long information organized */
+    text-justify: inter-word;
+}
+h2{
+    text-align: center;
+    font-size: 33px;
+    border-bottom: 2px solid #f3f1f1; /* To seperate the main text from sub-text */
+    padding-bottom: 12px;            /* To add space below the border-bottom */
+}
+.recipe-container{
+    display: flex;                      /* To seperate the ingredients and procedures in a row manner */
+    justify-content: space-between ;    /* This is the space between "Ingredients" and "Procedures" */
+}
+.ingredients, .method{
+    width: 120%;                    /* Width between the ingredients and procedures */
+    font-size: 30px;
+}
