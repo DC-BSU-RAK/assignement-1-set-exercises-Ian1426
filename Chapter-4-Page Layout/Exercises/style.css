@@ -15,19 +15,19 @@ header {
     font-size: 200%;
 }
 
-.contents{
+.contents {
     display: flex;
     flex-direction: row;
 }
 
-.welcome{
-    flex: 1;
-    margin-right:20px ;
+.welcome {
+    flex: 7; /* 70% of the space */
+    margin-right: 20px;
     font-size: 20px;
 }
 
-.sidebar{
-    width: 200%;
+.sidebar {
+    flex: 3; /* 30% of the space */
     background-color: #172d67;
     color: #ffffff;
     padding: 25px;
