@@ -50,6 +50,7 @@ p{
 }
 
 body{
+    background-color: bisque;                                  /* background color in body in html  */
     margin: 100px auto;                                         /* Margin size of the text in body in html  */
     width: max-content;                                         /* Width size of the text in body in html  */
     font-family: Helvetica;                                     /* Font-family of the text in body in html  */

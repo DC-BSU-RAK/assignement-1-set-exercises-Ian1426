@@ -10,6 +10,7 @@ div{
 }
 
 body{
+    background-color: bisque;                                 /* background color in body in html  */
     margin: 100px auto;                                         /* margin size of the text in body in html  */
     width: max-content;                                         /* width size of the text in body in html  */
     font-family: Helvetica;                                     /* font-family of the text in body in html  */

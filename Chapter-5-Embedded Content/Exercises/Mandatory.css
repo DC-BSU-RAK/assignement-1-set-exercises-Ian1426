@@ -1,0 +1,20 @@
+body{
+    background-color: blue;             /* Background-color of the body in html  */
+    display: flex;                          /* Display of the video in html  */
+    flex-direction: column;                 /* Flex-direction of video in html  */
+    justify-content: center;                /* Justify-content of video in html */
+    align-items: center;                    /* Alignment of video in html */
+    height: 100vh;                           /* Height of video in html  */
+    margin: 0;                              /* Margin of video in html  */
+    font-family: Georgia;                   /* Font-family of text of video in html */
+}
+
+video{
+    max-width: 100%;                        /* Max-width of video in html when played */
+    height: 100%;                            /* Height of video in html when played */
+}
+
+h1{
+    color: aliceblue;
+    font-size: 500%;
+}
