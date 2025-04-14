@@ -13,32 +13,35 @@ main {
 
 p {
     font-family: 'Times New Roman';         /* Font of the text of p information in html  */
-    font-size: 24px;                        /* Font size of the text of p information in html  */
+    font-size: 220%;                        /* Font size of the text of p information in html  */
 
 }
 
 h1 {
     text-align: center;                     /* To align the text to center  */
-    font-size: 315%;                        /* Font size of the text of h1 information in html  */
+    font-size: 500%;                        /* Font size of the text of h1 information in html  */
     background-color: rgb(235, 182, 182); /* Background color of the text in h1 */
 
 }
 
 h2 {
-    font-size: 24px;                        /* Font size of the text of h2 information in html  */
+    font-size: 220%;                        /* Font size of the text of h2 information in html  */
     font-family: 'Arial';                   /* Font of the text of h1 information in html  */          
     
 }
 
 h3 {
     font-family: 'Garamond';                /* Font of the text of h3 information in html  */
-    font-size: 24px;                        /* Font size of the text of h3 information in html  */
+    font-size: 220%;                        /* Font size of the text of h3 information in html  */
 
 }
 
 li {
     font-family: 'Verdana';                 /* Font of the text of list information in html  */
-    font-size: 24px;                        /* Font size of the text of list information in html  */
+    font-size: 220%;                        /* Font size of the text of list information in html  */
+    list-style-type: none;
+    padding-inline-start: 0;
+
 }
 
 .navbar ul {

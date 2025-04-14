@@ -1,0 +1,25 @@
+div{
+    display: inline-block;                  /* To adjust the spacing of text from top and bottom */
+    font-family: sans-serif;                /* Font family of the text in .div information in html  */
+    font-size: 20px;                        /* Font size of the text in .div information in html  */
+    margin: 25px;                           /* Margin of the text in .div information in html  */
+    line-height: 100px;                     /* Line-height of the text in .div information in html  */
+    text-align: center;                     /* Alignment of the text in .div information in html  */
+    width: 200px;                           /* Width size of the text in .div information in html  */
+    height: 500px;                          /* Height of the text in .div information in html  */
+}
+
+body{
+    margin: 100px auto;                                         /* margin size of the text in body in html  */
+    width: max-content;                                         /* width size of the text in body in html  */
+    font-family: Helvetica;                                     /* font-family of the text in body in html  */
+}
+
+h1{
+    text-align: justify;                                        /* alignment of the text in h1 in html  */
+    justify-content: center;                                    /* alignment of the content in h1 in html  */
+}
+
+
+
+        

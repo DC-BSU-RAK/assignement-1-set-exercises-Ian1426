@@ -1,0 +1,58 @@
+body {
+    margin: 8px;                        /* Margin will provide the the space of the text */
+    background: hsl(66, 81%, 79%);    /* Background color will provide the color of the bodypage */
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(66, 60, 60); /* Background color of the main text */
+    font-size: 100%;                        /* Font size of the text  */
+    
+}
+
+h1 {
+    text-align: center;                     /* To align the text to center  */
+    font-size: 315%;                        /* Font size of the text of h1 information in html  */
+    background-color: rgb(240, 233, 233); /* Background color of the text in h1 */
+
+}
+
+h2{
+    font-size: 220%;                            /* Font size of the text of h2 information in html  */
+    text-align: left;                           /* To align the text to center  */
+    font-family: Courier New;                   /* To choose the font family of the text  */
+}
+
+p{          
+    font-size: 150%;                            /* Font size of the text of h2 information in html  */
+    font-family: arial;                         /* To choose the font family of the text  */
+}
+
+h3{
+    font-size: 200%;                    /* Font size of the text of h2 information in html  */
+    text-align: left;                   /* To align the text to center  */
+    font-family: Courier New;           /* To choose the font family of the text  */
+}
+
+ol{     
+    font-size: 110%;                 /* Font size of the text of h2 information in html  */
+    font-family:verdana             /* To choose the font family of the text  */
+}   
+
+ul{
+    font-size: 120%;                    /* Font size of the text of h2 information in html  */
+    font-family:'Times New Roman', Times, serif;s       /* To choose the font family of the text  */
+}
+
+footer {
+    background-color: rgb(66, 60, 60);      /* Background color will provide the color of the footer page */
+    text-align:center;                      /* To align the text to center  */
+    color: #ffffff;                         /* To choose the color of the footer page  */
+}
+
+li{
+    font-size: 120%;                    /* Font size of the text of h2 information in html  */
+    font-family: trebuchet;                 /* To choose the font family of the text  */
+}
+
