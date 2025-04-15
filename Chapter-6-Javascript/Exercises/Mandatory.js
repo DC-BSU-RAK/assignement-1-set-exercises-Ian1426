@@ -18,14 +18,14 @@ function calculate() {                                                          
     const price = parseFloat(document.querySelector('#price').value);           // To analyze the value of price and convert it to a float
     
     
-    const litres = parseFloat(document.querySelector('#litres').value);         // To analyze the value of liters and convert it to a float
+    const liters = parseFloat(document.querySelector('#liters').value);         // To analyze the value of liters and convert it to a float
     
     
                                                                                 // To check if the input value is not a number and exit the function without calculating
-    if (isNaN(price) || isNaN(litres)) return;                              
+    if (isNaN(price) || isNaN(liters)) return;                              
     
     
-    const totalAmount = price * litres;                                         // To calculate the total amount of product
+    const totalAmount = price * liters;                                         // To calculate the total amount of product
     
                                                                                 // Total amount is used to show the total calculated amount of price and liters
     document.querySelector('#totalAmount').innerText = totalAmount.toFixed(2);   // ToFixed is used to show 2 decimal places
