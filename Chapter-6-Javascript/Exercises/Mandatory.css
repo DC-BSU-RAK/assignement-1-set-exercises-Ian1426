@@ -1,0 +1,118 @@
+body{
+    font-family: 'Times New Roman', Times, serif;           /* Font-family of the body in html  */
+    background-color: rgb(247, 177, 168);                  /* Background-color of the body in html  */
+    box-shadow: inset 0px 0px 50px rgb(233, 79, 79);         /* Box-shadow of the body in html  */
+    height: 100vh;                                              /* Height of the body in html  */
+    overflow-y: hidden;                                         /* Overflow-y of the body in html  */
+}
+
+.header {
+    padding: 2%;                                                /* Padding of the .header in html  */
+    text-align: center;                                         /* Text-align of the .header in html  */
+    color: rgb(0, 0, 0);                                      /* Color of the .header in html  */
+    background-color: rgb(105, 231, 248);                     /* Background-color of the .header in html  */
+    font-weight: bolder;                                        /* Font-weight of the .header in html  */
+    font-size: 200%;                                            /* Font-size of the .header in html  */
+}
+
+.container {
+    margin: 2% 2%;                                              /* Margin of the .container in html  */                                                                                                          
+    text-align: center;                                         /* Text-align of the .container in html  */
+    padding: 0.5%;                                              /* Padding of the .container in html  */
+    color: rgb(243, 243, 243);                                /* Color of the .container in html  */
+
+}
+
+.price {
+    background-color: rgb(105, 231, 248);                    /* Background-color of the .price in html  */
+    padding: 2%;                                                /* Padding of the .price in html  */
+    font-size: 24px;                                            /* Font-size of the .price in html  */
+    color: black;                                             /* Color of the .price in html  */
+
+}
+
+.price input {
+    margin-top: 2%;                                              /* Margin-top of the .price input in html  */
+    padding: 1%;                                                 /* Padding of the .price input in html  */
+    font-size: 24px;                                             /* Font-size of the .price input in html  */
+    background-color: rgb(255, 255, 255);                       /* Background-color of the .price input in html  */ 
+    color: rgb(25, 0, 255);                                      /* Color of the .price input in html  */    
+    font-weight: bolder;                                           /* Font-weight of the .price input in html  */  
+    
+}
+
+.price input:hover {
+    margin-top: 2%;                                             /* Margin-top of the .price input:hover in html  */
+    padding: 1%;                                                /* Padding of the .price input:hover in html  */
+    font-size: 24px;                                            /* Font-size of the .price input:hover in html  */
+    background-color: rgb(255, 255, 255);                       /* Background-color of the .price input:hover in html  */ 
+    color: rgb(25, 0, 255);                                     /* Color of the .price input:hover in html  */
+    font-weight: bolder;                                            /* Font-weight of the .price input:hover in html  */  
+    border: 2px solid rgb(179, 209, 9);                          /* Border of the .price input:hover in html  */         
+    
+}
+
+.liter {
+    background-color: rgb(105, 231, 248);                       /* Background-color of the .liter in html  */ 
+    padding: 2%;                                                    /* Padding of the .liter in html  */
+    font-size: 24px;                                                /* Font-size of the .liter in html  */
+    color: black;                                                 /* Font-size of the .liter in html  */
+
+}
+
+.liter input {  
+    margin-top: 2%;                                                 /* Margin-top of the .liter input  in html  */
+    padding: 1%;                                                    /* Padding of the .liter input  in html  */
+    font-size: 24px;                                                /* Font-size of the .liter input  in html  */
+    background-color: rgb(255, 255, 255);                         /* Background-color of the .liter input r in html  */ 
+    color: rgb(25, 0, 255);                                       /* Color of the .liter input r in html  */
+    font-weight: bolder;                                            /* Font-weight of the .liter input  in html  */  
+
+}
+
+.liter input:hover {
+    margin-top: 2%;                                             /* Margin-top of the .liter input:hover in html  */
+    padding: 1%;                                                /* Padding of the .liter input:hover in html  */
+    font-size: 24px;                                            /* Font-size of the .liter input:hover in html  */
+    background-color: rgb(255, 255, 255);                       /* Background-color of the .liter input:hover in html  */ 
+    color: rgb(25, 0, 255);                                     /* Color of the .liter input:hover in html  */
+    font-weight: bolder;                                            /* Font-weight of the .liter input:hover in html  */  
+    border: 2px solid rgb(179, 209, 9);                          /* Border of the .liter input:hover in html  */         
+    
+}
+
+button {
+    width: 10%;                                                     /* Width of the button in html  */
+    height: 75%;                                                    /* Height of the button in html  */
+    font-size: 120%;                                                /* Font-size of the button in html  */
+    padding: 1%;                                                    /* Padding of the button in html  */
+    transition: 0.3s ease-in-out;                                   /* Transition of the button in html  */
+   
+}
+
+button:hover {
+    background-color: rgb(69, 145, 7);                          /* Background-color of the button:hover in html  */ 
+    color: white;                                               /* Color of the button:hover in html  */ 
+    
+}
+
+.container1 {
+    margin-bottom: 2%;                                          /* Margin-bottom of the .container1 in html  */ 
+    text-align: center;                                         /* Text-align of the .container1 in html  */ 
+    font-size: 110%;                                            /* Font-size of the .container1 in html  */ 
+}
+
+p {
+    margin-top: -2%;                                            /* Margin-top of the p in html  */ 
+    font-size: 150%;                                            /* Font-size of the p in html  */ 
+    padding: 0.9%;                                              /* Padding of the p in html  */ 
+    color: white;                                             /* Color of the p in html  */ 
+
+}
+
+
+.container1 h2 {
+    color: black                                            /* Margin-bottom of the .container1 h2 in html  */ 
+    font-size: 400%;                                            /* Margin-bottom of the .container1 h2 in html  */ 
+
+}
