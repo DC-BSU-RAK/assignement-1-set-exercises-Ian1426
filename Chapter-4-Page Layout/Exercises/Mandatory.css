@@ -33,6 +33,7 @@ header {
     padding: 25px;                              /* Padding of .sidebar information in html  */
     margin-top: 10px;                           /* Margin-top of .sidebar information in html  */
     font-size: 200%;                            /* Font-size of .sidebar information in html  */
+
 }
 nav ul {
     list-style: none;                           /* List-style of .nav ul information in html  */
