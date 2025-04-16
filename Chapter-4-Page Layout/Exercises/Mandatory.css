@@ -3,8 +3,6 @@ body {
     color: #000000;                               /* Color of body in html  */      
     margin: 0;                                      /* Margin of body information in html  */                
     padding: 0;                                      /* Padding of body information in html  */   
-    text-align: justify;
-    justify-content: center;
 }
 
 header {
@@ -17,53 +15,25 @@ header {
     font-size: 200%;                                /* Font-size of the text of header information in html  */
 }
 
-main {
-    color: black;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
 .contents {
     display: flex;                              /* Display of the text of .contents information in html  */
     flex-direction: row;                        /* Flex-direction of the text of .contents information in html  */
 }
 
 .welcome {
-    flex: 1;                                    /* Flex of .welcome information in html  */
+    flex: 7; /* 70% of the space */             /* Flex of .welcome information in html  */
     margin-right: 20px;                         /* Margin-right of .welcome information in html  */
     font-size: 20px;                            /* Flex of .welcome information in html  */
 }
 
 .sidebar {
-    width: 500px;                                     /* Flex of .sidebar information in html  */
+    flex: 3; /* 30% of the space */             /* Flex of .sidebar information in html  */
     background-color: #172d67;                  /* Background-color of .sidebar information in html  */
     color: #ffffff;                             /* Color of .sidebar information in html  */
     padding: 25px;                              /* Padding of .sidebar information in html  */
     margin-top: 10px;                           /* Margin-top of .sidebar information in html  */
-    font-size: 20px%;                            /* Font-size of .sidebar information in html  */
+    font-size: 200%;                            /* Font-size of .sidebar information in html  */
 }
-
-p {
-    font-family:'Sans-Serif';                    /* Font-family of the text of p information in html  */
-    font-size: 40px;                             /* Font-size of the text of h2 information in html  */
-    text-align: left;
-    justify-content: left;
-}
-
-.sidebar img {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #8c15e9;              /* Background-color of footer information in html  */
-    color: #ffffff;                             /* Color of footer information in html  */
-    text-align: center;                            /* Text-align of footer information in html  */             
-    padding: 15px;                                /* Padding of footer information in html  */          
-}
-
 nav ul {
     list-style: none;                           /* List-style of .nav ul information in html  */
     padding: 0;                                 /* Padding  of .nav ul information in html  */
@@ -82,4 +52,36 @@ nav ul li a {
     color: #ffffff;                             /* Color  of .nav ul li a information in html  */
     text-decoration: none;                      /* Text-decoration  of .nav ul li a information in html  */
     font-weight: bold;                          /* Font-weight  of .nav ul li a information in html  */
+}
+
+h2 {
+    font-family:'Arial';                        /* Font-family of the text of h2 information in html  */
+    font-size: 225%;                             /* Font-size of the text of h2 information in html  */
+}
+
+p {
+    font-family:'Sans-Serif';                    /* Font-family of the text of p information in html  */
+    font-size: 230%;                             /* Font-size of the text of h2 information in html  */
+}
+
+.welcome img {
+    width: 35%;                                  /* Width of image information in html  */
+    height: 15%;                                     /* Height  of image information in html  */
+}
+
+main {
+    padding: 20px;                                   /* Padding of main in html  */
+}
+
+.lineup img {                                        
+    width: 20px;                                    /* Width of the text of .images img information in html  */
+    height: 30px;                                   /* Height of the text of .images img information in html  */
+    margin: 5px;                                    /* Margin of the text of .images img information in html  */
+}
+
+footer {
+    background-color: #8c15e9;              /* Background-color of footer information in html  */
+    color: #ffffff;                             /* Color of footer information in html  */
+    text-align: center;                            /* Text-align of footer information in html  */             
+    padding: 15px;                                /* Padding of footer information in html  */          
 }
