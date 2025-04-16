@@ -64,16 +64,16 @@ p {
     font-size: 230%;                             /* Font-size of the text of h2 information in html  */
 }
 
-img {
+.welcome img {
     width: 35%;                                  /* Width of image information in html  */
-    height: 70%;                                     /* Height  of image information in html  */
+    height: 15%;                                     /* Height  of image information in html  */
 }
 
 main {
     padding: 20px;                                   /* Padding of main in html  */
 }
 
-.images img {                                        
+.lineup img {                                        
     width: 20px;                                    /* Width of the text of .images img information in html  */
     height: 30px;                                   /* Height of the text of .images img information in html  */
     margin: 5px;                                    /* Margin of the text of .images img information in html  */

@@ -37,8 +37,4 @@ body {
 #D{
     border: 5px solid hsl(358, 69%, 42%);                   /* Border size of the image D in html  */
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.7);            /* Border size of the text in image D in html  */
-}
-
-
-
-        
+} 
